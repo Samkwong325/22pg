@@ -58,7 +58,7 @@ window.initGame = (React, assetsUrl) => {
               onDrop: (e) => dropHandler(e, index),
               draggable: true,
             },
-            React.createElement('img', { src: `${assetsUrl}/puzzle-piece.png`, alt: 'Puzzle Piece' })
+            React.createElement('img', { src: `${assetsUrl}/puzzle-photo.png`, alt: 'Puzzle photo' })
           )
         )
       )
